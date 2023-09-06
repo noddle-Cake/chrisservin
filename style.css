@@ -43,6 +43,8 @@ li, a, button{
     top: 30%;
 }
 .centerPassword input[type="password"] {
+    background-color: #D4BE98;
+    font-size: 70px;
     position: absolute;
     font-size: 30pt;
     padding: 10px;
