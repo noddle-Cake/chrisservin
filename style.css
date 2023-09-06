@@ -16,13 +16,43 @@ li, a, button{
 
 .nav_links li {
     display: inline-block;
-    padding: 0px 30px;
+    padding:  30px;
 }
 .nav_links li a {
     transition: 250ms ease 50ms;
 }
 .nav_links li a:hover {
     color: #D4BE98;
+}
+
+.centerPassword {
+    display: flex;
+    background-color: rgba(234,105,98,1);
+    align-items: center;
+    justify-content: center;
+    height: 95vh;
+    text-align: center;
+    margin: 20px;
+    padding: 0;
+}
+.centerPassword label {
+    position: absolute;
+    background-color: rgba(234,105,98,1);
+    font-size: 70px;
+    left: 20%;
+    top: 30%;
+}
+.centerPassword input[type="password"] {
+    position: absolute;
+    font-size: 30pt;
+    padding: 10px;
+    top: 32%;
+    left: 50%;
+}
+.centerPassword button {
+    position: absolute;
+    left: 46%;
+    top: 60%;
 }
 
 button {
@@ -56,8 +86,4 @@ body {
     cursor: pointer;
     max-width: 80px;
     height: auto;
-}
-
-.center {
-    text-align: center;
 }
