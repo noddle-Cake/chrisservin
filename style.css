@@ -57,6 +57,10 @@ li, a, button{
     top: 60%;
 }
 
+.center {
+    text-align: center;
+}
+
 button {
     padding: 9px 25px;
     background-color: rgba(69,112,122,1);
@@ -64,6 +68,7 @@ button {
     cursor: pointer;
     transition: all .25s ease .05s;
 }
+
 button:hover {
     background-color: rgba(69,112,122,0.83);
 }
@@ -82,6 +87,10 @@ body {
     margin: 0;
     padding: 0;
     color: #D4BE98;
+}
+
+.listOrganizer ul{
+
 }
 
 .logo {
